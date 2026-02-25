@@ -31,7 +31,7 @@ go run main.go
 
 服务器将在 http://0.0.0.0:8080 启动。  
 
-**3.测试API**  
+**3.测试API，使用Postman进行测试**  
 用户注册  
 ```text
 POST http://localhost:8080/api/v1/users/register
