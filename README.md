@@ -24,4 +24,6 @@ gin-homework/
 go mod tidy  
 
 **2.运行项目**  
-go run main.go
+go run main.go  
+
+服务器将在 http://0.0.0.0:8080 启动。
