@@ -105,8 +105,10 @@ token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFkb
     "content":"写得很好"
 }
 ```
-<img width="939" height="756" alt="image" src="https://github.com/user-attachments/assets/6aa24527-4234-4f8e-9edb-67f610343609" />
-  
+<img width="939" height="756" alt="image" src="https://github.com/user-attachments/assets/6aa24527-4234-4f8e-9edb-67f610343609" />  
 
-
-  
+获取某篇文章的所有评论列表  
+```text
+GET http://localhost:8080/api/v1/users/commentlist?postid=2
+```
+<img width="819" height="1047" alt="image" src="https://github.com/user-attachments/assets/085d8a0c-b3b6-49a1-993c-0ea1ddbcb916" />
