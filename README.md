@@ -18,10 +18,13 @@ gin-homework/
 ├── response/            # 请求和响应
     └── response.go
 ```
+# 运行环境
+mysql  
 # 快速开始
 <!-- ------------------------------------------------------- -->
 **1.安装依赖**  
 go mod tidy  
+go get xxx  
 
 **2.运行项目**  
 go run main.go  
