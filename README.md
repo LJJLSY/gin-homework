@@ -52,7 +52,7 @@ POST http://localhost:8080/api/v1/users/login
 }
 ```
 <img width="1902" height="834" alt="image" src="https://github.com/user-attachments/assets/de67c1f6-8d2f-4f00-adb1-9bc750128ca0" />  
-
+  
 创建文章  
 ```text
 POST http://localhost:8080/api/v1/users/createpost
@@ -63,6 +63,12 @@ token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImF
 }
 ```
 <img width="1335" height="287" alt="image" src="https://github.com/user-attachments/assets/2263fe0b-2308-45df-9d8f-01e8984a9f7b" />  
-<img width="930" height="753" alt="image" src="https://github.com/user-attachments/assets/6e0cb5e5-4714-4f09-b3dd-9e9baa9e38f2" />
-
+<img width="930" height="753" alt="image" src="https://github.com/user-attachments/assets/6e0cb5e5-4714-4f09-b3dd-9e9baa9e38f2" />  
+  
+获取文章列表  
+```text
+GET http://localhost:8080/api/v1/users/postlist
+```
+<img width="792" height="1077" alt="image" src="https://github.com/user-attachments/assets/afc0b1b8-62ff-4e27-9001-68e943df012e" />
+  
 
