@@ -69,6 +69,44 @@ token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImF
 ```text
 GET http://localhost:8080/api/v1/users/postlist
 ```
-<img width="792" height="1077" alt="image" src="https://github.com/user-attachments/assets/afc0b1b8-62ff-4e27-9001-68e943df012e" />
+<img width="792" height="1077" alt="image" src="https://github.com/user-attachments/assets/afc0b1b8-62ff-4e27-9001-68e943df012e" />  
+
+获取单个文章  
+```text
+GET http://localhost:8080/api/v1/users/post?id=1
+```
+<img width="783" height="831" alt="image" src="https://github.com/user-attachments/assets/f08054f3-7ba9-422e-8241-ed20152a6a8d" />  
+
+更新文章  
+```text
+PUT http://localhost:8080/api/v1/users/updatepost
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFkbWluMiIsImV4cCI6MTc3MjEyNzk4NywibmJmIjoxNzcyMDQxNTg3LCJpYXQiOjE3NzIwNDE1ODd9.UCvYq66vLLfuW_I987lbRVUqCObRBMTvohlyU3Y-Rcg
+{
+    "id":1,
+    "title":"第一篇文章",
+    "content":"这是用户2的第一篇文章（首次更改）"
+}
+```
+<img width="942" height="779" alt="image" src="https://github.com/user-attachments/assets/6f18b9a2-5839-4f22-a8cd-c1aa801894a4" />  
+
+删除文章  
+```text
+DELETE http://localhost:8080/api/v1/users/deletepost?id=1
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFkbWluMiIsImV4cCI6MTc3MjEyNzk4NywibmJmIjoxNzcyMDQxNTg3LCJpYXQiOjE3NzIwNDE1ODd9.UCvYq66vLLfuW_I987lbRVUqCObRBMTvohlyU3Y-Rcg
+```
+<img width="864" height="666" alt="image" src="https://github.com/user-attachments/assets/b56d9827-7002-4129-a3f0-3f20fedce4ae" />  
+
+创建评论  
+```text
+POST http://localhost:8080/api/v1/users/createcomment
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFkbWluMiIsImV4cCI6MTc3MjEyNzk4NywibmJmIjoxNzcyMDQxNTg3LCJpYXQiOjE3NzIwNDE1ODd9.UCvYq66vLLfuW_I987lbRVUqCObRBMTvohlyU3Y-Rcg
+{
+    "postid":"2",
+    "content":"写得很好"
+}
+```
+<img width="939" height="756" alt="image" src="https://github.com/user-attachments/assets/6aa24527-4234-4f8e-9edb-67f610343609" />
   
 
+
+  
